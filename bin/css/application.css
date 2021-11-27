@@ -1,0 +1,38 @@
+.jfx-tab-pane#specialJFXTabPane .tab .tab-label { 
+   -fx-alignment: CENTER;
+   -fx-text-fill: rgb(255, 0, 0);
+   -fx-font-size: 12.0px;
+   -fx-font-weight: bold;
+   -fx-wrap-text: true;
+   -fx-cursor:hand;
+}
+
+#magicTabPane .tab-header-area {
+ -fx-padding: 0.0 0.0 0.0 35.0 ;
+}
+
+
+.tab-pane .tab-header-area .tab-header-background {
+   -fx-background-color:#303030;	    
+}
+
+.tab-pane{	
+   -fx-tab-min-width:90.0; 
+}
+
+.tab-pane .tab{
+   -fx-background-color: black;
+   -fx-background-radius: 0.0 45.0 0.0 0.0 ;
+   -fx-border-color:transparent transparent transparent transparent;
+   -fx-focus-color: transparent;
+   -fx-faint-focus-color: transparent;  
+   -fx-cursor:hand; 
+}
+
+.tab-pane .tab:selected{
+   -fx-background-color: #FF3A4E;
+}
+
+.tab-pane .tab:selected:hover{
+    -fx-background-color: #FF1500; 
+}
